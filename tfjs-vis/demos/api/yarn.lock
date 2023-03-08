@@ -857,8 +857,15 @@
   integrity sha512-vuJsJdJej5uFC4d5xlRvNm7iONEL1pS5owjNoJ4MpNcZOtNd7kfI8qYPL8ICickG0EdXjUVa3A209iDdH0qiqA==
 
 "@tensorflow/tfjs-vis@link:../..":
-  version "0.0.0"
-  uid ""
+  version "1.4.3"
+  dependencies:
+    d3-format "~1.3.0"
+    d3-selection "~1.3.0"
+    glamor "~2.20.40"
+    preact "~8.2.9"
+    vega "5.20.0"
+    vega-embed "6.17.0"
+    vega-lite "4.13.1"
 
 "@tensorflow/tfjs@3.5.0":
   version "3.5.0"
@@ -4104,9 +4111,9 @@ minimatch@^3.0.4:
     brace-expansion "^1.1.7"
 
 minimist@^1.1.3, minimist@^1.2.0, minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
+  integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
 
 mixin-deep@^1.2.0:
   version "1.3.2"
